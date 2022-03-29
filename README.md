@@ -1,4 +1,4 @@
-# Flachain
+# Flachain Private Blockchain
 
 <p><img src="https://avatars.githubusercontent.com/u/57708417?s=96&v=4" alt="Flacoin logo" title="Minig Flachain" align="right" height="100" /></p>
 
