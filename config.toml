@@ -1,0 +1,58 @@
+[Eth]
+NetworkId = 29032022
+NoPruning = false
+NoPrefetch = false
+LightPeers = 100
+UltraLightFraction = 75
+TrieTimeout = 100000000000
+EnablePreimageRecording = false
+EWASMInterpreter = ""
+EVMInterpreter = ""
+
+[Eth.Miner]
+GasFloor = 30000000
+GasCeil = 40000000
+GasPrice = 1000000000
+Recommit = 10000000000
+Noverify = false
+
+[Eth.TxPool]
+Locals = []
+NoLocals = true
+Journal = "transactions.rlp"
+Rejournal = 3600000000000
+PriceLimit = 1000000000
+PriceBump = 10
+AccountSlots = 512
+GlobalSlots = 10000
+AccountQueue = 256
+GlobalQueue = 5000
+Lifetime = 10800000000000
+
+[Eth.GPO]
+Blocks = 20
+Percentile = 60
+
+
+[Node]
+IPCPath = "geth.ipc"
+HTTPHost = "localhost"
+HTTPPort = 8545
+NoUSB = true
+InsecureUnlockAllowed = true
+HTTPModules = ["eth", "net", "web3", "db", "txpool", "personal"]
+WSPort = 8546
+WSModules = ["net", "web3", "eth"]
+
+[Node.P2P]
+MaxPeers = 30
+NoDiscovery = false
+BootstrapNodes = ["enode://13f5a78f7ce111f7f0e07f9321b54c7320dd81d3b395a3a44a420b5b21eb8892181ef396307ebf29da9891b6ab735abcb060cfc42c3e1ee4389b02243e940568@44.201.111.3:30305"]
+StaticNodes = ["enode://f56bdb4014b53f4f8a3f0ae3a489037c9fe6776c78e08b69d32b5bed0058e34dd6bcbcf613a78456e089c9366d122c4b23d0031eec4e4336a05c6a449bdc3485@44.201.111.3:30303"]
+ListenAddr = ":30303"
+EnableMsgEvents = false
+
+[Node.HTTPTimeouts]
+ReadTimeout = 30000000000
+WriteTimeout = 30000000000
+IdleTimeout = 120000000000
