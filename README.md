@@ -117,8 +117,27 @@ WantedBy=default.target
 ```bash
    sudo nano /etc/systemd/system/geth.service
 ```
-**Copy and past the previous code Done**
+Copy and past the previous code save Done
 
+**Start geth**
+
+```bash
+   sudo systemctl start geth
+```
+
+**Enable geth**
+
+```bash
+   sudo systemctl enable geth
+```
+
+**Stop geth**
+
+```bash
+   sudo systemctl stop geth
+```
+
+-----------------------
 
 #### examples
 
