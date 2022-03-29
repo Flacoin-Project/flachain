@@ -3,7 +3,7 @@
 <p><img src="https://avatars.githubusercontent.com/u/57708417?s=96&v=4" alt="Flacoin logo" title="Minig Flachain" align="right" height="100" /></p>
 
 
-**Configure and operate Geth (Go-Ethereum): an Flacoin Private blockchain for mining tokens**
+**Configure and operate Geth (Go-Ethereum) an Flachain Private blockchain for mining tokens**
 
 
 **Overview**
