@@ -164,7 +164,7 @@ Config network Flachain in Metamask
 ```
 Network name: Flachain 
 
-RPC url: https://data-seed.flacoin.org
+RPC url: https://data-seed.flacoin.org:2096
 
 Chain ID: 29032022
 
