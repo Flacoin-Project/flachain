@@ -170,7 +170,7 @@ Chain ID: 29032022
 
 Symbol: FLA
 
-Url Explorer: Soon
+Url Explorer: https://flaexchange.top/explorer/app/#/
 
 ```
 
