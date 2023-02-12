@@ -168,13 +168,13 @@ Config network Flachain in Metamask
 ```
 Network name: Flachain 
 
-RPC url: https://data-seed.flacoin.org:2096
+RPC url: https://flachain.flaexchange.top
 
 Chain ID: 29032022
 
 Symbol: FLA
 
-Url Explorer: https://flaexchange.top/explorer/app/#/
+Url Explorer: https://explorer.flaexchange.top
 
 ```
 
