@@ -36,6 +36,10 @@ sudo apt-get install ethereum
 ```bash
 git clone https://github.com/Flacoin-Project/flachain.git
 cd flachain
+unzip geth_fla.zip
+sudo chmod +x geth_fla
+sudo mv geth_fla /usr/bin/
+sudo mv geth_fla.service /etc/systemd/system/
 mkdir node
 ```
 **Done**
@@ -52,7 +56,7 @@ Configure geth to boot into the folder we just created.
 step 1
 
 ```bash
-  geth --datadir ~/flachain/node init ~/flachain/genesis.json
+  geth_fla --datadir ~/flachain/node init ~/flachain/genesis.json
 ```
 
 -------------------------------
@@ -60,7 +64,7 @@ step 1
 Step 2
 
 ```bash
-  geth --datadir ~/flachain/node --config ~/flachain/config.toml console
+  geth_fla --datadir ~/flachain/node --config ~/flachain/config.toml console
 ```
 
 -------------------------------
@@ -122,19 +126,19 @@ Copy and past the previous code save Done
 **Start geth**
 
 ```bash
-   sudo systemctl start geth
+   sudo systemctl start geth_fla
 ```
 
 **Enable geth**
 
 ```bash
-   sudo systemctl enable geth
+   sudo systemctl enable geth_fla
 ```
 
 **Stop geth**
 
 ```bash
-   sudo systemctl stop geth
+   sudo systemctl stop geth_fla
 ```
 
 -----------------------
