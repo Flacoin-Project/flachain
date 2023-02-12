@@ -1,0 +1,9 @@
+[Unit]
+Description=Ethereum go client
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/geth_fla  --datadir /home/you-user/flachain/node --config /home/you-user/flachain/config.toml --verbosity 3 --http --http.addr you ip addr --http.port you http port default --> 8545 --http.corsdomain "*" --port you p2p port --http.api "eth,txpool,personal,net,debug,miner,admin" --mine --miner.threads 2
+
+[Install]
+WantedBy=default.target
